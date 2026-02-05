@@ -86,7 +86,7 @@ export function Hero() {
             <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-blue-300 rounded-full opacity-20 blur-3xl"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="/src/img/1.webp"
+                src="/1.webp"
                 alt="Laboratorio Clínico"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />

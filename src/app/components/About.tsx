@@ -43,7 +43,7 @@ export function About() {
           <div className="order-2 md:order-1">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <ImageWithFallback
-                src="/src/img/2.webp"
+                src="/2.webp"
                 alt="Laboratorio Clínico"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
