@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './error/ImageWithFallback';
 import { CheckCircle, Shield, Users, Award } from 'lucide-react';
 
 export function About() {
@@ -43,7 +43,7 @@ export function About() {
           <div className="order-2 md:order-1">
             <div className="relative rounded-2xl overflow-hidden shadow-xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1583911860071-a2638580e8f4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGluaWNhbCUyMGxhYm9yYXRvcnklMjB0ZXN0JTIwdHViZXN8ZW58MXx8fHwxNzcwMzAxNDE4fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/src/img/2.webp"
                 alt="Laboratorio Clínico"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
@@ -110,11 +110,7 @@ export function About() {
               </p>
             </div>
             <div className="relative rounded-xl overflow-hidden shadow-lg">
-              <ImageWithFallback
-                src="https://images.unsplash.com/photo-1576669801838-1b1c52121e6a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtZWRpY2FsJTIwbGFib3JhdG9yeSUyMGVxdWlwbWVudHxlbnwxfHx8fDE3NzAxOTAzODN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
-                alt="Equipamiento médico moderno"
-                className="w-full h-[300px] object-cover"
-              />
+             
             </div>
           </div>
         </div>

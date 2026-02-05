@@ -101,7 +101,7 @@ export function Contact() {
                 <div className="text-center">
                   <MapPin className="size-12 text-gray-400 mx-auto mb-2" />
                   <p className="text-gray-600">Ubicación del Laboratorio</p>
-                  <p className="text-sm text-gray-500 mt-2">Av. Principal #123, Centro</p>
+                  <p className="text-sm text-gray-500 mt-2">Alcaldia Municipal 1/2 Cuadra al sur.</p>
                 </div>
               </div>
             </div>
@@ -157,7 +157,7 @@ export function Contact() {
                   onChange={handleChange}
                   required
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent outline-none transition-all"
-                  placeholder="+52 123 456 7890"
+                  placeholder="+505 8854 4579"
                 />
               </div>
 

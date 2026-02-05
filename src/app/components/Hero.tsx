@@ -1,4 +1,4 @@
-import { ImageWithFallback } from './figma/ImageWithFallback';
+import { ImageWithFallback } from './error/ImageWithFallback';
 import { Calendar, Clock, Award } from 'lucide-react';
 
 export function Hero() {
@@ -86,7 +86,7 @@ export function Hero() {
             <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-blue-300 rounded-full opacity-20 blur-3xl"></div>
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1631556760585-2e846196d5a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWRpY2FsJTIwbGFib3JhdG9yeSUyMHNjaWVudGlzdCUyMG1pY3Jvc2NvcGV8ZW58MXx8fHwxNzcwMjcxNDIyfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                src="/src/img/1.webp"
                 alt="Laboratorio Clínico"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
